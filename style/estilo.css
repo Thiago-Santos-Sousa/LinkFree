@@ -20,25 +20,27 @@ img{
 }
 img{
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   padding: 3.7px;
   border: 4px #4263eb solid;
 }
 p{
   font-family: 'Roboto Mono' monospace;
-  font-size: 400;
+  font-weight: 400;
   color: #00083f;
   opacity:0,8;
   font-size: 18px;
 }
+h1{
+  font-size: 32px;
+  color: #00083f;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
 ul{
   list-style: none;
   margin: 48px 0;
-}
-h1{
-  margin-top: 24px;
-  margin-bottom: 8px;
 }
 ul li a{
   height: 53px;
@@ -58,4 +60,7 @@ footer{
 }
 footer a{
   color: #00083f;
+  font-size: 12px;
+  color: #00083f;
+  opacity: 0.6;
 }
