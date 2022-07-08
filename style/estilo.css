@@ -15,15 +15,21 @@ body{
   width: 300px;
   margin: 60px auto;
 }
-img{
+.minhafoto{
   width: 100px;
 }
-img{
+.minhafoto{
   border-radius: 50%;
   width: 125px;
   height: 125px;
   padding: 3.7px;
   border: 4px #4263eb solid;
+}
+.icone{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5px;
 }
 p{
   font-family: 'Roboto Mono' monospace;
