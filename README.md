@@ -1,2 +1,2 @@
 # LinkTree
- Exercício Rockseat, site modelo link free
+ Exercício Rockseat, site modelo link Tree
