@@ -7,7 +7,7 @@ a{
   text-decoration: none;
 }
 body{
-  background:#13133a;
+  background:#00091a;
   font-family: 'Roboto' sans-serif;
 }
 .container{
@@ -20,10 +20,10 @@ body{
 }
 .minhafoto{
   border-radius: 50%;
-  width: 125px;
-  height: 125px;
+  width: 128px;
+  height: 135px;
   padding: 3.7px;
-  border: 4px #9933ff solid;
+  border: 4px #00091a solid;
 }
 .icone{
   display: flex;
@@ -34,13 +34,13 @@ body{
 p{
   font-family: 'Roboto Mono' monospace;
   font-weight: 400;
-  color: #00083f;
+  color: #ffffff;
   opacity:0,8;
   font-size: 18px;
 }
 h1{
-  font-size: 32px;
-  color: #00ace6;
+  font-size: 35px;
+  color: #993399;
   margin-top: 24px;
   margin-bottom: 8px;
 }
@@ -49,27 +49,29 @@ ul{
   margin: 48px 0;
 }
 ul li a{
-  height: 53px;
+  height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #9933ff;
-  color: white;
+  background: #ffffff;
+  color: #000000;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 15px;
 
   margin-bottom: 16px;
-  border-radius: 6px;
+  border-radius: 25px;
 
   transition: background 400ms;
 }
 ul li a:hover{
-  background:#00083f ;
+  background:#993399;
+  color: #ffffff;
+  transition: 400ms;
 }
 footer{
   font-weight: 500;
   font-size: 12px;
-  color: #00083f;
+  color: #ffffff;
   opacity: 0.6;
   transition: opacity 400ms;
 }
@@ -77,8 +79,7 @@ footer:hover{
   opacity: 1;
 }
 footer a{
-  color: #00083f;
-  font-size: 12px;
-  color: #00083f;
-  opacity: 0.6;
+  color: #ffffff;
+  font-size: 15px;
+  color: #bf40bf;
 }
